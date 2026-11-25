@@ -1,0 +1,7 @@
+[
+  {"name": "groq-llama-70b", "base_url": "https://api.groq.com/openai/v1", "model": "llama-3.3-70b-versatile", "api_key_env": "GROQ_API_KEY", "min_interval": 2.0},
+  {"name": "groq-llama-8b", "base_url": "https://api.groq.com/openai/v1", "model": "llama-3.1-8b-instant", "api_key_env": "GROQ_API_KEY", "min_interval": 2.0},
+  {"name": "gemini-flash", "base_url": "https://generativelanguage.googleapis.com/v1beta/openai", "model": "gemini-2.0-flash", "api_key_env": "GEMINI_API_KEY", "min_interval": 4.0},
+  {"name": "ollama-qwen-7b", "base_url": "http://localhost:11434/v1", "model": "qwen2.5:7b"},
+  {"name": "ollama-llama-3b", "base_url": "http://localhost:11434/v1", "model": "llama3.2:3b"}
+]
